@@ -3,8 +3,4 @@ const editor = grapesjs.init({
     fromElement: true,
     width: "auto",
     StorageManager:"false",
-    plugins:["gjs-preset-webpage"],
-    pluginsOpts:{
-        "gjs-preset-webpage":{},
-    },
 });
