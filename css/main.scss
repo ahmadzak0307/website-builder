@@ -76,21 +76,46 @@ body {
    top: 0;
 }
 
-// theming
+.gjs-pn-btn{
+  border: 1px solid #990011ff;
+}
+
+// Customize Bootstrap
+.btn,
+.nav-link,
+.modal-content,
+.form-control {
+  border-radius: 0 !important;
+}
+
+.btn{
+  .fa{
+    color: #990011ff;
+  }
+  &:hover{
+    color: #fcf6ff;
+  }
+}
+
+// Theming
 .gjs-one-bg{
-  background-color: #fff;
+  background-color: #fcf6f5ff;
 }
 
 .gjs-two-bg{
-  color: #9ca8db;
+  color: #990011ff;
 }
 
 .gjs-three-bg{
-  background-color:#1e8fe1;
-  color: #fff;
+  background-color:#990011ff;
+  color: #fcf6f5ff;
 }
 
 .gjs-four-bg,
 .gjs-four-color-h:hover{
-  color:#1e8fe1;
+  color:#990011ff;
+}
+
+.bi {
+  color: #990011ff;
 }

@@ -75,20 +75,42 @@ html {
   top: 0;
 }
 
+.gjs-pn-btn {
+  border: 1px solid #990011;
+}
+
+.btn,
+.nav-link,
+.modal-content,
+.form-control {
+  border-radius: 0 !important;
+}
+
+.btn .fa {
+  color: #990011;
+}
+.btn:hover {
+  color: #fcf6ff;
+}
+
 .gjs-one-bg {
-  background-color: #fff;
+  background-color: #fcf6f5;
 }
 
 .gjs-two-bg {
-  color: #9ca8db;
+  color: #990011;
 }
 
 .gjs-three-bg {
-  background-color: #1e8fe1;
-  color: #fff;
+  background-color: #990011;
+  color: #fcf6f5;
 }
 
 .gjs-four-bg,
 .gjs-four-color-h:hover {
-  color: #1e8fe1;
+  color: #990011;
+}
+
+.bi {
+  color: #990011;
 }/*# sourceMappingURL=main.css.map */
